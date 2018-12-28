@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./menu-nueva-editar.css">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../../../node_modules/chosen-js/chosen.min.css">
+    <title>Editar Menú/Carta</title>
+</head>
+
+<body>
+    <nav id="menu-main" class="navbar sticky-top navbar-light bg-light">
+        <a href="#" class="navbar-brand">Nuevo Menú/Carta</a>
+        <ul class="nav left">
+            <li id="min" class="nav-item"><a href="#" class="nav-link"><i class="far fa-window-minimize"></i></a></li>
+            <li id="max" class="nav-item"><a href="#" class="nav-link"><i class="far fa-window-maximize"></i></a></li>
+            <li id="close" class="nav-item"><a href="#" class="nav-link"><i class="fas fa-times"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form id="edit-content">
+            <input id="me-id" type="hidden"></input>
+
+            <div class="form-group">
+                <label for="me-edit-nombre">Nombre del Menú/Carta</label>
+                <input id="me-edit-nombre" class="form-control" placeholder="Nombre de la receta"></input>
+            </div>
+            <div class="form-group">
+                <label for="me-edit-prim">Primeros</label>
+                <select id="me-edit-prim" class="form-control" multiple></select>
+            </div>
+            <div class="form-group">
+                <label for="me-edit-entr">Entrantes</label>
+                <select id="me-edit-entr" class="form-control" multiple></select>
+            </div>
+            <div class="form-group">
+                <label for="me-edit-seg">Segundos</label>
+                <select id="me-edit-seg" class="form-control" multiple></select>
+            </div>
+            <div class="form-group">
+                <label for="me-edit-post">Postres</label>
+                <select id="me-edit-post" class="form-control" multiple></select>
+            </div>
+            <div class="form-group">
+                <label for="me-edit-comm">Comentarios</label>
+                <textarea id="me-edit-comm" class="form-control" placeholder="Comentarios"></textarea>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" class="btn btn-primary" value="Guardar" />
+            </div>
+        </form>
+
+    </div>
+    <script> window.$ = window.jQuery = require('jquery');</script>
+    <script src="../../../node_modules/chosen-js/chosen.jquery.min.js"></script>
+    <script src="./menu-nueva-editar.js"></script>
+
+</body>
+
+</html>

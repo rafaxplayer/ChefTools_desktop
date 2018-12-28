@@ -1,0 +1,92 @@
+{
+    "nombre": "menu dia",
+    "entrantes": [
+        {
+            "nombre": "Manzanas asadas",
+            "img": "C:\\Users\\rafax\\Desktop\\images\\forest-wallpaper-20.jpg",
+            "cats": [
+                {
+                    "nombre": "Postres",
+                    "_id": "WUTu8AXtcuHEhFG5"
+                }
+            ],
+            "elaboracion": "asfdghfjgkhjl\ngfhjkl\ngxfchvjbknl\nhjvhbknlñm\nzxgfchjklñ\ndsfyugihoj\n",
+            "ingredientes": "sdfghjklñ\ngfhjkl\ndsfghjklñ´\nxcvbnm\n",
+            "url": "",
+            "_id": "2H681JIIJJZQ9AI3"
+        }
+    ],
+    "primeros": [
+        {
+            "nombre": "Manzanas asadas",
+            "img": "C:\\Users\\rafax\\Desktop\\images\\forest-wallpaper-20.jpg",
+            "cats": [
+                {
+                    "nombre": "Postres",
+                    "_id": "WUTu8AXtcuHEhFG5"
+                }
+            ],
+            "elaboracion": "asfdghfjgkhjl\ngfhjkl\ngxfchvjbknl\nhjvhbknlñm\nzxgfchjklñ\ndsfyugihoj\n",
+            "ingredientes": "sdfghjklñ\ngfhjkl\ndsfghjklñ´\nxcvbnm\n",
+            "url": "",
+            "_id": "2H681JIIJJZQ9AI3"
+        }
+    ],
+    "segundos": [
+        {
+            "nombre": "Manzanas asadas",
+            "img": "C:\\Users\\rafax\\Desktop\\images\\forest-wallpaper-20.jpg",
+            "cats": [
+                {
+                    "nombre": "Postres",
+                    "_id": "WUTu8AXtcuHEhFG5"
+                }
+            ],
+            "elaboracion": "asfdghfjgkhjl\ngfhjkl\ngxfchvjbknl\nhjvhbknlñm\nzxgfchjklñ\ndsfyugihoj\n",
+            "ingredientes": "sdfghjklñ\ngfhjkl\ndsfghjklñ´\nxcvbnm\n",
+            "url": "",
+            "_id": "2H681JIIJJZQ9AI3"
+        }
+    ],
+    "postres": [
+        {
+            "nombre": "Manzanas asadas",
+            "img": "C:\\Users\\rafax\\Desktop\\images\\forest-wallpaper-20.jpg",
+            "cats": [
+                {
+                    "nombre": "Postres",
+                    "_id": "WUTu8AXtcuHEhFG5"
+                }
+            ],
+            "elaboracion": "asfdghfjgkhjl\ngfhjkl\ngxfchvjbknl\nhjvhbknlñm\nzxgfchjklñ\ndsfyugihoj\n",
+            "ingredientes": "sdfghjklñ\ngfhjkl\ndsfghjklñ´\nxcvbnm\n",
+            "url": "",
+            "_id": "2H681JIIJJZQ9AI3"
+        },
+        {
+            "nombre": "Manzanas asadas",
+            "img": "C:\\Users\\rafax\\Desktop\\images\\forest-wallpaper-20.jpg",
+            "cats": [
+                {
+                    "nombre": "Postres",
+                    "_id": "WUTu8AXtcuHEhFG5"
+                }
+            ],
+            "elaboracion": "asfdghfjgkhjl\ngfhjkl\ngxfchvjbknl\nhjvhbknlñm\nzxgfchjklñ\ndsfyugihoj\n",
+            "ingredientes": "sdfghjklñ\ngfhjkl\ndsfghjklñ´\nxcvbnm\n",
+            "url": "",
+            "_id": "2H681JIIJJZQ9AI3"
+        }
+    ],
+    "otros": "Bedida y postre aparte",
+    "fecha": "26-11-2018",
+    "tipo": "menu",
+    "comentarios": "hola que ase",
+    "_id": "U1dkftf6l2QtiYed"
+}
+{
+    "$$indexCreated": {
+        "fieldName": "nombre",
+        "unique": true
+    }
+}

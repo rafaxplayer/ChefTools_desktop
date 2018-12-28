@@ -1,0 +1,88 @@
+@import './global.css';
+
+.menu-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-all .item{
+    
+    min-height: 250px;
+    min-width: 200px;
+    cursor: pointer;
+    transition: all .4s;
+    background-size: cover !important;
+
+    margin:10px;
+    flex: 0 0 calc(33.33% - 20px);
+}
+.menu-all .item .info{
+    
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.menu-all .item:hover .info{
+    opacity: 1;
+}
+
+.menu-all .item:hover{
+    -webkit-box-shadow: -2px -1px 22px 1px rgba(64,63,64,1);
+    -moz-box-shadow: -2px -1px 22px 1px rgba(64,63,64,1);
+    box-shadow: -2px -1px 22px 1px rgba(64,63,64,1);
+}
+
+.menu-all .item .info h3{
+    font-family: 'Days';
+    font-size: 1rem;
+    color:#B8860B;
+ 
+}
+
+.menu-all .item .info span{
+    color:#d0c6c6;
+    font-family: 'serif';
+    padding: 0 .8rem;
+    font-size: .8rem;
+}
+
+@media screen and (min-width:695px){
+    .menu-all .item .info h3{
+        font-size: 1.5rem;
+    }
+    .menu-all .item .info span{
+      font-size:1rem;
+    }
+}
+#recetas{
+    background: url(../../assets/img/main-menu/recipes.jpg) no-repeat bottom;
+    
+}
+#menus-cartas{
+    background: url(../../assets/img/main-menu/menus.jpg) no-repeat bottom center;
+   
+}
+#proveedores{
+    background: url(../../assets/img/main-menu/provider.jpg) no-repeat bottom;
+    
+}
+#productos{
+    background: url(../../assets/img/main-menu/products.jpg) no-repeat bottom;
+}
+#inventarios{
+    background: url(../../assets/img/main-menu/inventory.jpg) no-repeat bottom;
+}
+#pedidos{
+    background: url(../../assets/img/main-menu/orders.jpg) no-repeat bottom;
+}
+#herramientas{
+    background: url(../../assets/img/main-menu/tools.jpg) no-repeat bottom;
+}

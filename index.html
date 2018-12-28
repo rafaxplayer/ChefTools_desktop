@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <title>Chef Tools</title>
+</head>
+
+<body>
+    <nav id="menu-main" class="navbar sticky-top navbar-light bg-light">
+        <a href="#" class="navbar-brand"><img src="./assets/img/logo.png" alt="cheftools logo" /> Chef Tools</a>
+        <ul class="nav left">
+            <li id="min" class="nav-item"><a href="#" class="nav-link"><i class="far fa-window-minimize"></i></a></li>
+            <li id="max" class="nav-item"><a href="#" class="nav-link"><i class="far fa-window-maximize"></i></a></li>
+            <li id="close" class="nav-item"><a href="#" class="nav-link"><i class="fas fa-times"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="menu-all">
+            <div id="recetas" class="item">
+                <div class="info">
+
+                    <h3>Recetas</h3>
+                    <span>Libreria de recetas y formulas de cocina.</span>
+                </div>
+            </div>
+            <div id="menus-cartas" class="item">
+                <div class="info">
+                    <h3>Menus/Cartas</h3>
+                    <span>Cartas/Menus del chef</span>
+                </div>
+
+            </div>
+            <div id="proveedores" class="item">
+                <div class="info">
+                    <h3>Proveedores</h3>
+                    <span>Los que abastecen de productos tu cocina</span>
+                </div>
+            </div>
+            <div id="inventarios" class="item">
+                <div class="info">
+                    <h3>Inventarios</h3>
+                    <span>Cada mes o año ,recuento de productos y menaje de cocina</span>
+                </div>
+            </div>
+            <div id="pedidos" class="item">
+                <div class="info">
+                    <h3>Pedidos</h3>
+                    <span>Cada mes o año ,recuento de productos y menaje de cocina</span>
+                </div>
+            </div>
+            <div id="productos" class="item">
+                <div class="info">
+                    <h3>Productos</h3>
+                    <span>Materia prima de tu dia a dia</span>
+                </div>
+            </div>
+            <div id="herramientas" class="item">
+                <div class="info">
+                    <h3>Herramientas</h3>
+                    <span>Cosas que ayudan chef</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script> window.$ = window.jQuery = require('jquery');</script>
+    <script>require('./index.js')</script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./receta-nueva-editar.css">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../../../node_modules/chosen-js/chosen.min.css">
+    <title>Recetas</title>
+</head>
+
+<body>
+    <nav id="menu-main" class="navbar sticky-top navbar-light bg-light">
+        <a href="#" class="navbar-brand">Nueva Receta</a>
+        <ul class="nav left">
+            <li id="min" class="nav-item"><a href="#" class="nav-link"><i class="far fa-window-minimize"></i></a></li>
+            <li id="max" class="nav-item"><a href="#" class="nav-link"><i class="far fa-window-maximize"></i></a></li>
+            <li id="close" class="nav-item"><a href="#" class="nav-link"><i class="fas fa-times"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form id="edit-content">
+            <input id="re-id" type="hidden"></input>
+            <div class="text-center">
+                <img id="re-edit-img" class="img-fluid img-thumbnail" src="../../../assets/img/recipe-big-placeholder.jpg"
+                    alt="receta imagen">
+            </div>
+            <div class="form-group text-center">
+                <button id="recipe-image" class="btn btn-primary">Imagen</button>
+            </div>
+            <div class="form-group">
+                <label for="re-edit-nombre">Nombre de la receta</label>
+                <input id="re-edit-nombre" class="form-control" placeholder="Nombre de la receta"></input>
+            </div>
+            <div class="form-group">
+                <label for="re-edit-cats">Categorias</label>
+                <select id="re-edit-cats" class="form-control" multiple></select>
+            </div>
+            <div class="form-group">
+                <label for="re-edit-ingredientes">Ingredientes</label>
+                <textarea id="re-edit-ingredientes" class="form-control" placeholder="Ingredientes"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="re-edit-elaboracion">Elaboración</label>
+                <textarea id="re-edit-elaboracion" class="form-control" placeholder="Elaboración"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="re-edit-url">Url</label>
+                <input id="re-edit-url" type="url" class="form-control" placeholder="Url de la receta"></input>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" class="btn btn-primary" value="Guardar"/>
+            </div>
+        </form>
+
+    </div>
+    <script> window.$ = window.jQuery = require('jquery');</script>
+    <script src="../../../node_modules/chosen-js/chosen.jquery.min.js"></script>
+    <script src="./receta-nueva-editar.js"></script>
+
+</body>
+
+</html>

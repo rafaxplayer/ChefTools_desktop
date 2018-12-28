@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Days';
+    src: url('../fonts/DaysOne-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  } 
+body{
+    background-color: #D2B48C !important;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+     
+}
+
+#menu-main{
+    background-color: #802002 !important;
+    -webkit-app-region:drag;
+    position: relative;
+    height: 3.5rem;
+    z-index: 10;
+    
+}
+#menu-main ul li a{
+    -webkit-app-region: no-drag;
+    display:block;
+    padding: .5rem;
+    font-size: .8rem;
+    color:#B8860B;
+    transition: all .4s;
+}
+#menu-main ul li a:hover{
+    background-color: #5e200f;
+}
+
+.navbar-brand{
+    font-family: 'Days';
+    -webkit-user-select: none !important;
+    color: #B8860B !important;
+}
+.navbar-brand img{
+    width:40px;
+}
+
+.container{
+    padding-top: 10px;
+    max-width: 100% !important;
+    
+    position: relative;
+    overflow-y: auto;
+    height: 100vh;
+}
+.row{
+    margin: 0 !important;
+}
+
+#search-content{
+    margin-left:auto;
+}
+
+#list-content li img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+#list-content li .re-info{
+    flex:1;
+}
+#list-content li .re-info h3{
+    color:#333;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0;
+    font-size: 1.5rem;
+}
+#list-content li .buttons i{
+    padding: .5rem;
+    transition: all .4s;
+}
+#list-content li .buttons i:hover{
+    color:#B8860B;
+    cursor: pointer;
+}
+.more i{
+    padding: 1rem;
+    color:#802002;
+    font-size: 2rem;
+    cursor:pointer;
+}
+.more i:hover{
+    color:#B8860B;
+}
+
+.add-content{
+    color:#802002;
+    font-size: 1.5rem;
+}
+.add-content:hover{
+    color:#B8860B;
+    cursor:pointer;
+}
+
+
+@media screen and (min-width: 768px){
+    .detail{
+        /* position:fixed !important;
+        right: 1rem; */
+    }
+}
+
+.detail img{
+    margin-bottom:30px;
+    
+}
+.detail h2{
+    font-family: 'Days';
+    text-transform: capitalize;
+    color:#ab7006;
+    font-size: 1.5rem;
+}
+.detail p{
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+.detail p span{
+    color:#bd7508;
+    font-size: 1rem;
+    display: block;
+}
+
+/* Editar ventanas*/
+#edit-content label{
+    font-weight: 600;
+    color:#B8860B;
+}
+
+#edit-content{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}

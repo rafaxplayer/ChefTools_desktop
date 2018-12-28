@@ -1,0 +1,7 @@
+{"nombre":"Carnes","_id":"9Vt97jKaNUWiqoRG"}
+{"nombre":"Entrantes","_id":"RiReqMU025L1Ysha"}
+{"nombre":"Postres","_id":"WUTu8AXtcuHEhFG5"}
+{"nombre":"Sopas","_id":"euKByGf1WjQxHFOC"}
+{"nombre":"Ensaladas","_id":"pWR8r2psQBewoh3o"}
+{"nombre":"Pescados","_id":"vZqhypJX2nxNTRvO"}
+{"$$indexCreated":{"fieldName":"nombre","unique":true,"sparse":false}}

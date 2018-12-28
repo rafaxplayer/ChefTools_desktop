@@ -1,0 +1,13 @@
+@import '../../../assets/css/global.css';
+
+#re-edit-img {
+    margin-bottom: 1rem;
+}
+
+.chosen-container{
+    display: block !important;
+}
+.chosen-container ul{
+    min-height: 3rem;
+}
+
